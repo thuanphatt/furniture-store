@@ -1,0 +1,70 @@
+.lasted-post {
+  margin-bottom: 50px;
+}
+
+.lasted-post__img {
+  margin-bottom: 20px;
+  transition: all 0.7s ease;
+}
+
+.lasted-post__img:hover {
+  opacity: 0.8;
+  scale: 1.1;
+  cursor: pointer;
+}
+.lasted-post__info {
+  display: flex;
+  gap: 20px;
+}
+
+.lasted-post__info-left {
+  width: 50px;
+  height: 56px;
+  border: 1px solid #eaeaea;
+}
+.lasted-post__info-day {
+  color: var(--heading-color);
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  font-weight: 700;
+  margin: 5px 0 3px;
+  text-align: center;
+}
+.lasted-post__info-month {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+  display: block;
+}
+.lasted-post__info-right {
+  max-width: 307px;
+}
+.lasted-post__info-admin {
+  font-size: 1.2rem;
+  line-height: 1.2rem;
+  color: var(--primary-color);
+  margin-bottom: 0;
+}
+.lasted-post__info-name {
+  color: var(--heading-color);
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 4px;
+}
+
+.lasted-post__info-name:hover {
+  color: var(--heading-color);
+}
+.lasted-post__info-details {
+  color: #666;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+  margin-top: 4px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  max-height: 4.5em;
+}

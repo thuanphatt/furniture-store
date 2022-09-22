@@ -1,0 +1,67 @@
+.menu_offcanvas {
+  position: fixed;
+  top: 0;
+  height: 100%;
+  width: 250px;
+  overflow: auto;
+  left: -250px;
+  background: #222;
+  color: #999;
+  padding: 15px;
+  z-index: 9999;
+  left: 0;
+  display: none;
+}
+.resp-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.resp-item {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+  line-height: 41px;
+  border-bottom: 1px solid #393939;
+  font-size: 1.3rem;
+}
+.resp-item a {
+  color: #999;
+}
+.icon-plus {
+  position: absolute;
+  display: inline-block;
+  right: 0;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  text-align: center;
+  border: 1px solid #999;
+  transition: all 0.25s ease;
+}
+.icon-plus::after {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 1px;
+  background: #999;
+  top: 50%;
+  margin-top: -1px;
+  transition: all 0.25s ease;
+  left: 20%;
+}
+
+.icon-plus::before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 1px;
+  background: #999;
+  top: 50%;
+  margin-top: -1px;
+  transform: rotate(-90deg);
+  transition: all 0.25s ease;
+  left: 20%;
+}

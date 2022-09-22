@@ -1,0 +1,143 @@
+.footer__top {
+  background-color: #f8f8f6;
+}
+
+.footer__content {
+  padding: 55px 0 42px;
+}
+
+.footer-heading {
+  color: var(--heading-color);
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin-bottom: 32px;
+}
+
+.footer__list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer__item {
+  margin-bottom: 12px;
+  transition: all ease 0.3s;
+}
+
+.footer__item:hover .footer__icon {
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+.footer__link {
+  color: var(--gray-light);
+  font-size: 1.2rem;
+  transition: all ease 0.3s;
+}
+
+.footer__link:hover {
+  color: var(--primary-color);
+  transform: translateX(8px);
+}
+
+.footer__icon {
+  position: relative;
+  color: var(--gray-light);
+  border: 1px solid #eaeaea;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--white-color);
+  margin-right: 16px;
+}
+
+.footer__item {
+  display: flex;
+  align-items: center;
+}
+
+.footer__info {
+  display: flex;
+  flex-direction: column;
+  color: var(--gray-light);
+  font-size: 1.2rem;
+}
+
+.footer__info-mail {
+  font-size: 1.2rem;
+  color: var(--gray-light);
+  transition: all ease 0.3s;
+}
+
+.footer__info-mail span:hover {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.register-text {
+  font-size: 1.2rem;
+  margin-bottom: 4px;
+  color: var(--gray-light);
+}
+
+.footer__input {
+  max-width: 100%;
+  width: 100%;
+  color: #c8c8c8;
+  opacity: 0.6;
+  padding: 8px 10px;
+  font-size: 1.2rem;
+  border-radius: 0;
+  box-shadow: none;
+  margin-bottom: 8px;
+  border: 1px solid #eaeaea;
+}
+
+input:focus {
+  outline: var(--black-color);
+}
+
+.sub-btn {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: var(--white-color);
+  background-color: #222;
+  padding: 6px 15px;
+  text-align: center;
+  border: none;
+  transition: all ease 0.3s;
+}
+
+.sub-btn:hover {
+  background-color: var(--primary-color);
+}
+
+/* footer bottom */
+.footer__bottom {
+    padding: 20px 0;
+    border-top: 1px solid #eaeaea;
+}
+
+
+
+.footer__bottom-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__copyright {
+    font-size: 1.3rem;
+    color: var(--gray-light);
+    padding: 3px 0 0;
+    font-weight: 400;
+}
+
+.footer__payment {
+    margin-right: 15px;
+}

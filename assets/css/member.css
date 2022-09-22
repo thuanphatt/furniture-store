@@ -1,0 +1,23 @@
+.member-list-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-bottom: 52px;
+}
+
+.member-item {
+  max-width: 270px;
+  transition: all 0.7s ease;
+}
+
+.member-item:hover {
+  opacity: 0.8;
+  scale: 1.1;
+  filter: brightness(1.1) drop-shadow(1px 8px 30px #b1afaf);
+  cursor: pointer;
+}
+
+.member-item:nth-child(1) {
+  max-width: 570px;
+}

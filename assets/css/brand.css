@@ -1,0 +1,29 @@
+.brand {
+    border-top: 1px solid #eaeaea;
+   margin: 0 4px 0 12px;
+}
+
+.wrap-brand {
+    height: 152px;
+}
+
+.brand__content {
+    max-width: 195px;
+    position: relative;
+}
+
+.brand-img {
+    position: absolute;
+    width: 195px;
+    height: 107px;
+    display: block;
+    top: 50%;
+    left: 0%;
+    transform: translateY(-50%);
+
+}
+
+.brand-img:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.03);
+}

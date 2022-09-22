@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNS Simen</title>
+    <link rel="shortcut icon" href="https://cdn.iconscout.com/icon/premium/png-256-thumb/retro-3-115929.png"
+        type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./assets/css/grid.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/member.css">
+    <link rel="stylesheet" href="./assets/css/most-view.css">
+    <link rel="stylesheet" href="./assets/css/lasted-post.css">
+    <link rel="stylesheet" href="./assets/css/brand.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/reponsive.css">
+    <link rel="stylesheet" href="./assets/css/res-nav.css">
+    <link rel="stylesheet" href="./assets/font/themify-icons/themify-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div class="web">
+        <div class="top-header">
+            <div class="container">
+                <ul class="top-header__list-left">
+                    <div class="list-lang">
+                        <li class="top-header__item" id="language-tonge">
+                            <a href="#" class="top-header__link language-main">
+                                <img src="./assets/img/en.jpg" alt="en" class="top-header__img">
+                                <span>English</span>
+                            </a>
+                            <div class="language__select">
+                                <ul class="language__option">
+                                    <li class="language__item">
+                                        <a class="language__link">
+                                            <img src="./assets/img/en.jpg" alt="en" class="language__img">
+                                            English
+                                        </a>
+                                    </li>
+                                    <li class="language__item">
+                                        <a class="language__link">
+                                            <img src="./assets/img/ru.jpg" alt="" class="language__img">
+                                            Russia
+                                        </a>
+                                    </li>
+                                    <li class="language__item">
+                                        <a class="language__link">
+                                            <img src="./assets/img/bra.jpg" alt="" class="language__img">
+                                            Brazil
+                                        </a>
+                                    </li>
+                                    <li class="language__item">
+                                        <a class="language__link">
+                                            <img src="./assets/img/fr.jpg" alt="" class="language__img">
+                                            France
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="currency-switcher">
+                        <li class="top-header__item">
+                            <a href="#" class="top-header__link language-main">
+                                <span>USD</span>
+                            </a>
+                            <div class="currency__select">
+                                <ul class="currency__option">
+                                    <li class="currency__item">
+                                        <a class="currency__link">
+                                            USD
+                                        </a>
+                                    </li>
+                                    <li class="currency__item">
+                                        <a class="currency__link">
+                                            EUR
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    </div>
+
+                </ul>
+                <ul class="top-header__list-right hide-on-mobile">
+                    <li class="top-header__item-right">
+                        <a href="" class="top-header__link">
+                            <i class="top-header__icon ti-user"></i>
+                            <span class="top-header__name">My Account</span>
+                        </a>
+                    </li>
+                    <li class="top-header__item-right">
+                        <a href="" class="top-header__link">
+                            <i class="top-header__icon ti-heart"></i>
+                            <span class="top-header__name">Wishlist</span>
+                        </a>
+                    </li>
+                    <li class="top-header__item-right">
+                        <a href="" class="top-header__link">
+                            <i class="top-header__icon ti-check-box"></i>
+                            <span class="top-header__name">Checkout</span>
+                        </a>
+                    </li>
+                    <li class="top-header__item-right" style=" border-right: 1px solid rgba(136, 136, 136, 0.2);">
+                        <a href="" class="top-header__link">
+                            <i class="top-header__icon ti-key"></i>
+                            <span class="top-header__name">Login</span>
+                        </a>
+                    </li>
+                </ul>
+                <div class="respo-top-header hide-on-pc">
+                    <i class="fas fa-anchor anchor__icon"></i>
+                </div>
+                <div class="quick-access hide-on-pc">
+                    <ul class="respo-top-header-list">
+                        <li class="respo-top-header__item">
+                            <a href="" class="respo-top-header__link">
+                                <i class="respo-top-header__icon ti-user"></i>
+                                <span class="respo-top-header__name">My Account</span>
+                            </a>
+                        </li>
+                        <li class="respo-top-header__item">
+                            <a href="" class="respo-top-header__link">
+                                <i class="respo-top-header__icon ti-heart"></i>
+                                <span class="respo-top-header__name">Wishlist</span>
+                            </a>
+                        </li>
+                        <li class="respo-top-header__item">
+                            <a href="" class="respo-top-header__link">
+                                <i class="respo-top-header__icon ti-check-box"></i>
+                                <span class="respo-top-header__name">Checkout</span>
+                            </a>
+                        </li>
+                        <li class="respo-top-header__item">
+                            <a href="" class="respo-top-header__link">
+                                <i class="respo-top-header__icon ti-key"></i>
+                                <span class="respo-top-header__name">Login</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="header">
+            <div class="container">
+                <div class="row">
+                    <div class="header-logo col l-3 c-12 logo-mobile">
+                        <a href="#">
+                            <img src="./assets/img/logo.png" alt="" class="header-logo__img">
+                        </a>
+                    </div>
+                    <div class="header-widget col l-3">
+                        <div class="header-widget__icon">
+                            <i class="header-widget__icon ti-truck"></i>
+                        </div>
+                        <div class="header-widget__details">
+                            <a href="" class="header-widget__name">FREE DELIVERY WORLDWIDE</a>
+                            <span>On order over $100</span>
+                        </div>
+
+                    </div>
+                    <div class="header-widget col l-3">
+                        <div class="header-widget__icon">
+                            <i class="header-widget__icon ti-cloud-up"></i>
+                        </div>
+                        <div class="header-widget__details">
+                            <a href="" class="header-widget__name">UP TO 20% OFF COSY LAYERS</a>
+                            <span>Lorem ipsum dolor sit amet</span>
+                        </div>
+
+                    </div>
+                    <div class="header-widget col l-3">
+                        <div class="header-widget__icon">
+                            <i class="header-widget__icon ti-gift"></i>
+                        </div>
+                        <div class="header-widget__details">
+                            <a href="" class="header-widget__name">BUY 1 GET 1 FREE</a>
+                            <span>On order over $100</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu">
+            <div class="container">
+                <div class="menu-wrap">
+                    <div class="respmenu" id="respmenu">
+                        <i class="ti-menu respmenu-icon"></i>
+                    </div>
+                    <div class="menu_offcanvas hide-on-pc" id="menu_offcanvas">
+                        <ul class="resp-nav">
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Home
+                                </a>
+                                <span class="icon-plus">
+                            </li>
+
+                            </span>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Furniture
+                                </a>
+                                <span class="icon-plus">
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Coffee Tables
+                                </a>
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Sofa
+                                </a>
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Bedroom furniture
+                                </a>
+                                <span class="icon-plus">
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Shop
+                                </a>
+                                <span class="icon-plus">
+                            </li>
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Blog
+                                </a>
+                                <span class="icon-plus">
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+                                    Shortcodes
+                                </a>
+                            </li>
+                            <li class="resp-item">
+                                <a href="#" class="resp-item-title">
+
+                                    Contact us
+                                </a>
+                                <span class="icon-plus">
+                            </li>
+                        </ul>
+                    </div>
+                    <ul class="menu-left">
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link menu-left__link--active">HOME</a>
+                            <div class="menu-home__select">
+                                <ul class="menu-home__option">
+                                    <li class="menu-home__item">
+                                        <a href="#" class="menu-home__link menu-home__link--active">Home Page 1</a>
+                                    </li>
+                                    <li class="menu-home__item">
+                                        <a href="#" class="menu-home__link">Home Page 2</a>
+                                    </li>
+                                    <li class="menu -home__item">
+                                        <a href="#" class="menu-home__link">Home Page 3</a>
+                                    </li>
+                                    <li class="menu-home__item">
+                                        <a href="#" class="menu-home__link">Home Page 4</a>
+                                    </li>
+                                    <li class="menu-home__item">
+                                        <a href="#" class="menu-home__link">Home Page 5</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link p-relative">FURNITURE</a>
+                            <div class="menu-furniture__select">
+                                <div class="row">
+                                    <div class="col l-6">
+                                        <div class="row">
+                                            <div class="menu-furniture col l-6">
+                                                <h2 class="menu-heading">TABLE</h2>
+                                                <ul class="menu-furniture__list">
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Kitchen & Dining
+                                                            Room Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Folding Table</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Living Room
+                                                            Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Sofa Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">End Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Coffee Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Pedestal Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Home Office Desk</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="menu-furniture col l-6">
+                                                <h2 class="menu-heading">TABLE</h2>
+                                                <ul class="menu-furniture__list">
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Kitchen & Dining
+                                                            Room Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Folding Table</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Living Room
+                                                            Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Sofa Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">End Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Coffee Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Pedestal Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Home Office Desk</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="wrap-furniture__img">
+                                                <img src="./assets/img/banner-mega-22.jpg" alt=""
+                                                    class="furniture__img">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col l-6">
+                                        <div class="row">
+                                            <div class="menu-furniture col l-6">
+                                                <h2 class="menu-heading">TABLE
+
+                                                </h2>
+                                                <ul class="menu-furniture__list">
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Kitchen & Dining
+                                                            Room Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Folding Table</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Living Room
+                                                            Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Sofa Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">End Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Coffee Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Pedestal Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Home Office Desk</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+
+                                            <div class="menu-furniture col l-6">
+                                                <h2 class="menu-heading">TABLE
+
+                                                </h2>
+                                                <ul class="menu-furniture__list">
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Kitchen & Dining
+                                                            Room Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Folding Table</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Living Room
+                                                            Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Sofa Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">End Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Coffee Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Pedestal Tables</a>
+                                                    </li>
+
+                                                    <li class="menu-furniture__item">
+                                                        <a href="" class="menu-furniture__link">Home Office Desk</a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <div class="wrap-furniture__img">
+                                                <img src="./assets/img/banner-mega-32.jpg" alt=""
+                                                    class="furniture__img">
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                        </li>
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link">COFFEE TABLES</a>
+                        </li>
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link">SOFAS</a>
+                        </li>
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link p-relative">BEDROOM FURNITURE</a>
+                            <div class="menu-bedroom__select">
+                                <div class="row">
+                                    <div class="menu-bedroom__item col l-3">
+                                        <div class="wrap-bedroom__img">
+                                            <img src="./assets/img/category-img-1.png" alt="" class="menu-bedroom__img">
+                                        </div>
+                                        <h2 class="menu-bedroom__heading">SOFA</h2>
+                                        <p class="menu-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur</p>
+                                    </div>
+                                    <div class="menu-bedroom__item col l-3">
+
+                                        <div class="wrap-bedroom__img">
+                                            <img src="./assets/img/avant-garde-design-studios-furniture-250x150.jpg"
+                                                alt="" class="menu-bedroom__img">
+                                        </div>
+                                        <h2 class="menu-bedroom__heading">CHAIR</h2>
+                                        <p class="menu-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur</p>
+                                    </div>
+                                    <div class="menu-bedroom__item col l-3">
+                                        <div class="wrap-bedroom__img">
+                                            <img src="./assets/img/furniture-bad.jpg" alt="" class="menu-bedroom__img">
+                                        </div>
+                                        <h2 class="menu-bedroom__heading">BED</h2>
+                                        <p class="menu-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur</p>
+                                    </div>
+                                    <div class="menu-bedroom__item col l-3">
+                                        <div class="wrap-bedroom__img">
+                                            <img src="./assets/img/furniture-chest.jpg" alt=""
+                                                class="menu-bedroom__img">
+                                        </div>
+                                        <h2 class="menu-bedroom__heading">FURNITURE CHEST</h2>
+                                        <p class="menu-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                            Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link">SHOP</a>
+                            <div class="menu-shop__select">
+                                <div class="row">
+                                    <div class="menu-shop col l-4">
+                                        <h2 class="menu-heading">PRODUCT TYPES</h2>
+                                        <ul class="menu-shop__list">
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Simple Product</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Grouped Product</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Variable Product</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Variable Product - Color</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Variable Product - Image</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">External/Affiliate Product</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-shop col l-4">
+                                        <h2 class="menu-heading">SHOP PAGES</h2>
+                                        <ul class="menu-shop__list">
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Shopping Cart</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Checkout</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">My Account</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Wishlist</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">404</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Product Tag</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-shop col l-4">
+                                        <h2 class="menu-heading">SHOP SHORTCODES</h2>
+                                        <ul class="menu-shop__list">
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Furniture Categories</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Product Tabs</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Products</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-left__item p-relative">
+                            <a href="#" class="menu-left__link">BLOG</a>
+                            <div class="menu-blog__select">
+                                <ul class="menu-blog__option">
+                                    <li class="menu-blog__item">
+                                        <a href="#" class="menu-blog__link">Blog FullWidth</a>
+                                    </li>
+                                    <li class="menu-blog__item">
+                                        <a href="#" class="menu-blog__link">Blog FullWidth 2 Columns</a>
+                                    </li>
+                                    <li class="menu -blog__item">
+                                        <a href="#" class="menu-blog__link">Blog FullWidth 3 Columns</a>
+                                    </li>
+                                    <li class="menu-blog__item">
+                                        <a href="#" class="menu-blog__link">Blog Masonry</a>
+                                    </li>
+                                    <li class="menu-blog__item">
+                                        <a href="#" class="menu-blog__link">Blog Left Sidebar</a>
+                                    </li>
+                                    <li class="menu-blog__item">
+                                        <a href="#" class="menu-blog__link">Blog Right Sidebar</a>
+                                    </li>
+                                    <li class="menu-blog__item p-relative">
+                                        <a href="#" class="menu-blog__link">Sigle Post
+                                            <i class="blog-icon ti-arrow-right"></i>
+                                        </a>
+                                        <!-- Sub-blog -->
+                                        <div class="menu-subblog__select">
+                                            <ul class="menu-subblog__option">
+                                                <li class="menu-subblog__item">
+                                                    <a href="#" class="menu-subblog__link">Standard</a>
+                                                </li>
+                                                <li class="menu-subblog__item">
+                                                    <a href="#" class="menu-subblog__link">Post Format - Gallery</a>
+                                                </li>
+                                                <li class="menu -blog__item">
+                                                    <a href="#" class="menu-subblog__link">Post Format - Quote</a>
+                                                </li>
+                                                <li class="menu-subblog__item">
+                                                    <a href="#" class="menu-subblog__link">Post Format - Video</a>
+                                                </li>
+                                                <li class="menu-subblog__item">
+                                                    <a href="#" class="menu-subblog__link">Post Format - Link</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link">SHORTCODES</a>
+                            <div class="menu-shop__select">
+                                <div class="row">
+                                    <div class="menu-shop col l-4">
+                                        <h2 class="menu-heading">SHORTCODES</h2>
+                                        <ul class="menu-shop__list">
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Accordion</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Custom Heading</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Massages</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">Progress Bar</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Counter</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Custom Box</a>
+                                            </li>
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Featured Categories</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                    <div class="menu-shop col l-4">
+                                        <h2 class="menu-heading">SHORTCODES</h2>
+                                        <ul class="menu-shop__list">
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Lasted Posts</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Member</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Our Brand</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Product Tabs</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Products</a>
+                                            </li>
+
+                                            <li class="menu-shop__item">
+                                                <a href="" class="menu-shop__link">SNS Testimonials</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="menu-shop col l-4">
+                                        <img src="./assets/img/vc-short.png" alt="" class="menu-shop__img">
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-left__item">
+                            <a href="#" class="menu-left__link">CONTACT US</a>
+                        </li>
+                    </ul>
+                    <ul class="menu-right">
+                        <li class="menu-right__item">
+                            <i class="search-icon ti-search"></i>
+                        </li>
+                        <li class="menu-right__item">
+                            <i class="cart-icon ti-shopping-cart"></i>
+                            <span class="cart-num">0</span>
+                            <span class="cart-detail">( items )</span>
+                            <div class="menu-right__select">
+                                <ul class="menu-right__option">
+                                    <li class="menu-right__item">
+                                        <span class="menu-right__info-cart">No products in the cart.</span>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="content">
+            <div class="container">
+                <div class="main">
+                    <!-- Section hero -->
+                    <section class="section-hero">
+                        <div class="row ">
+                            <div class="section-hero__left col l-6">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+                                    <div class="carousel-indicators">
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="0" class="active" aria-current="true"
+                                            aria-label="Slide 1">
+                                        </button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                        <button type="button" data-bs-target="#carouselExampleIndicators"
+                                            data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                    </div>
+                                    <div class="carousel-inner h-100">
+                                        <div class="carousel-item active">
+                                            <img src="./assets/img/01.png"
+                                                class="carousel-item__img d-block w-100 carousel-img" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./assets/img/02.png"
+                                                class="carousel-item__img d-block w-100 carousel-img" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./assets/img/01.png"
+                                                class="carousel-item__img d-block w-100 carousel-img" alt="...">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img src="./assets/img/03.png"
+                                                class="carousel-item__img d-block w-100 carousel-img" alt="...">
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!-- <img src="./assets/img/01.png" alt="" class="section-hero__img-l">
+                                <div class="section-hero__wrap-icons">
+                                    <div class="section-hero__wrap-icon">
+                                        <i class="section-hero__icon ti-control-stop"></i>
+                                    </div>
+                                    <div class="section-hero__wrap-icon">
+                                        <i class="section-hero__icon ti-control-stop"></i>
+                                    </div>
+                                    <div class="section-hero__wrap-icon">
+                                        <i class="section-hero__icon ti-control-stop"></i>
+                                    </div>
+                                    <div class="section-hero__wrap-icon">
+                                        <i class="section-hero__icon ti-control-stop"></i>
+                                    </div>
+                                </div> -->
+                            </div>
+                            <div class="section-hero__right col l-6">
+                                <div class="section-hero__right-t row">
+                                    <div class="col l-12">
+                                        <img src="./assets/img/05.png" alt="" class="section-hero__img-t-r">
+                                    </div>
+                                </div>
+                                <div class="section-hero__right-b row">
+                                    <div class="section-hero__wrap-img-b-l col l-6 c-12">
+                                        <img src="./assets/img/banner1.jpg" alt="" class="section-hero__img-b-l">
+                                    </div>
+                                    <div class="section-hero__wrap-img-b-r col l-6 c-12">
+                                        <img src="./assets/img/banner2.jpg" alt="" class="section-hero__img-b-r">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Section content -->
+                    <section class="section-content">
+                        <div class="nav-tab">
+                            <ul class="nav-tab__list">
+                                <li class="nav-tab__item">
+                                    <a href="#" class="nav-tab__link nav-tab__link--active">LATEST</a>
+                                </li>
+                                <li class="nav-tab__item">
+                                    <a href="#" class="nav-tab__link">BEST SELLER</a>
+                                </li>
+                                <li class="nav-tab__item">
+                                    <a href="#" class="nav-tab__link">FEATURED</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img">
+                                    <img src="./assets/img/lasted-1.jpg" alt="" class="product-img">
+                                    <span class="on-sales">Sale!</span>
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-check"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <span class="old-price">$ 9.00</span>
+                                    <span class="current-price">$ 7.00</span>
+                                </div>
+                                <div class="product-rating" title="Rated 5.00 out of 5">
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img">
+                                    <img src="./assets/img/lasted-2.jpg" alt="" class="product-img">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-check"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 10.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img">
+                                    <img src="./assets/img/lasted-3.jpg" alt="" class="product-img">
+                                    <span class="on-sales">Sale!</span>
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-check"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <span class="old-price">$ 3.00</span>
+                                    <span class="current-price">$ 2.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img">
+                                    <img src="./assets/img/lasted-4.jpg" alt="" class="product-img">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-check"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 13.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img">
+                                    <img src="./assets/img/lasted-5.jpg" alt="" class="product-img">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-check"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 14.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="wrap-load-item">
+                            <button class="more-item-btn">Load more items</button>
+                        </div>
+                    </section>
+                    <!-- Section section-introduce -->
+                    <section class="section-introduce">
+                        <div class="row">
+                            <div class="section-introduce__left col l-6 c-12">
+                                <img src="./assets/img/axel-stool.jpg" alt="" class="section-introduce__img">
+                            </div>
+                            <div class="section-introduce__right col l-6 c-12">
+                                <h2>AXEL - STOOL</h2>
+                                <h4>NEW PRODUCTS</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum adipisci modi eaque
+                                    nostrum, voluptatum facere quasi corporis repellat magnam tenetur assumenda
+                                    temporibus accusamus perferendis corrupti et? Voluptates facere deleniti illo.</p>
+                                <button class="buy-btn">BUY NOW</button>
+                            </div>
+                        </div>
+                    </section>
+                    <!-- Section SUGGEST COLLECTION -->
+                    <section class="section-sug-collection">
+                        <div class="wrap-sug-collection">
+                            <h2 class="sug-collection__heading">SUGGEST COLLECTION</h2>
+                            <ul class="sug-collection__list hide-on-mobile">
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab sug-collection__tab--active">
+                                        <img src="./assets/img/sug-01.jpg" alt="" class="sug-collection-img">
+                                        <span class="sug-collection-name">Office Chair</span>
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <img src="./assets/img/sug-02.png" alt="" class="sug-collection-img">
+                                        <span class="sug-collection-name">Sofas</span>
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <img src="./assets/img/sug-03.jpg" alt="" class="sug-collection-img">
+                                        <span class="sug-collection-name">Good Chair</span>
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <img src="./assets/img/sug-04.jpg" alt="" class="sug-collection-img">
+                                        <span class="sug-collection-name">Coffee Chair</span>
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <img src="./assets/img/sug-05.jpg" alt="" class="sug-collection-img">
+                                        <span class="sug-collection-name">Outdoor Table</span>
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <img src="./assets/img/sug-06.jpg" alt="" class="sug-collection-img">
+                                        <span class="sug-collection-name">Ipsum Chair</span>
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <span class="sug-collection-name">Wood Chair</span>
+                                        <img src="./assets/img/sug-07.jpg" alt="" class="sug-collection-img">
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <span class="sug-collection-name">Coffee Tables</span>
+                                        <img src="./assets/img/sug-08.jpg" alt="" class="sug-collection-img">
+                                    </a>
+                                </li>
+                                <li class="sug-collection__item">
+                                    <a href="#" class="sug-collection__tab">
+                                        <span class="sug-collection-name">Living Room</span>
+                                        <img src="./assets/img/sug-09.jpg" alt="" class="sug-collection-img">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row product-list">
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-1.jpg" alt="" class="product-img product-img-full">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 7.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-3.jpg" alt="" class="product-img product-img-full">
+                                    <span class="on-sales">Sale!</span>
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <span class="old-price">$ 9.00</span>
+                                    <span class="current-price">$ 10.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-2.jpg" alt="" class="product-img product-img-full">
+                                    <span class="on-sales">Sale!</span>
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>buy now</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <span class="old-price">$ 3.00</span>
+                                    <span class="current-price">$ 2.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-4.jpg" alt="" class="product-img product-img-full">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>select options</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 13.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-5.jpg" alt="" class="product-img product-img-full">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 14.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-5.jpg" alt="" class="product-img product-img-full">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 14.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                            <div class="wrap-product col l-2-4 c-12">
+                                <div class="wrap-img wrap-img--full">
+                                    <img src="./assets/img/lasted-5.jpg" alt="" class="product-img product-img-full">
+                                    <!-- <span class="on-sales">Sale!</span> -->
+                                    <div class="add-cart">
+                                        <i class="add-cart__icon ti-shopping-cart"></i>
+                                        <span>add to cart</span>
+                                    </div>
+                                    <div class="box-inner">
+                                        <i class="ti-heart"></i>
+                                        <i class="ti-control-shuffle"></i>
+                                        <i class="ti-eye"></i>
+                                    </div>
+                                </div>
+                                <h3 class="product-name">Modular Modern</h3>
+                                <div class="product-price">
+                                    <!-- <span class="old-price">$ 9.00</span> -->
+                                    <span class="current-price">$ 14.00</span>
+                                </div>
+                                <div class="product-rating">
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                    <i class="start-icon fa-solid fa-star"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section class="member">
+                        <div class="container">
+                            <div class="member-list-img">
+                                <img src="./assets/img/member1.jpg" alt="" class="member-item">
+                                <img src="./assets/img/member2.jpg" alt="" class="member-item">
+                                <img src="./assets/img/member3.jpg" alt="" class="member-item">
+                            </div>
+                        </div>
+                    </section>
+                    <section class="most-view">
+                        <div class="subnav__top">
+                            <h2 class="heading--second">MOST VIEWED</h2>
+                            <div class="sub-control">
+                                <a href="#">
+                                    <i class="left-icon fa fa-long-arrow-left"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="right-icon fa fa-long-arrow-right"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="most-view__content">
+                            <div class="row product-list product-list--small">
+                                <div class="wrap-product--small col l-2-4 c-12">
+
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-1.jpg" alt=""
+                                            class="product-img product-img--small">
+                                        <!-- <span class="on-sales">Sale!</span> -->
+
+
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <span class="old-price">$ 9.00</span>
+                                            <span class="current-price">$ 10.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+
+
+
+
+
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-3.jpg" alt=""
+                                            class="product-img product-img--small">
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Donec cursus</h3>
+                                        <div class="product-price">
+                                            <span class="old-price">$ 9.00</span>
+                                            <span class="current-price">$ 10.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>buy now</span>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-2.jpg" alt=""
+                                            class="product-img product-img--small">
+
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <span class="old-price">$ 3.00</span>
+                                            <span class="current-price">$ 2.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-4.jpg" alt=""
+                                            class="product-img product-img--small">
+
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <!-- <span class="old-price">$ 9.00</span> -->
+                                            <span class="current-price">$ 13.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-5.jpg" alt=""
+                                            class="product-img product-img--small">
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <!-- <span class="old-price">$ 9.00</span> -->
+                                            <span class="current-price">$ 14.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+                            <div class="row product-list product-list--small">
+                                <div class="wrap-product--small col l-2-4 c-12">
+
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-1.jpg" alt=""
+                                            class="product-img product-img--small">
+                                        <!-- <span class="on-sales">Sale!</span> -->
+
+
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <span class="old-price">$ 9.00</span>
+                                            <span class="current-price">$ 10.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-3.jpg" alt=""
+                                            class="product-img product-img--small">
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Donec cursus</h3>
+                                        <div class="product-price">
+                                            <span class="old-price">$ 9.00</span>
+                                            <span class="current-price">$ 10.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>buy now</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-2.jpg" alt=""
+                                            class="product-img product-img--small">
+
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <span class="old-price">$ 3.00</span>
+                                            <span class="current-price">$ 2.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-4.jpg" alt=""
+                                            class="product-img product-img--small">
+
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <!-- <span class="old-price">$ 9.00</span> -->
+                                            <span class="current-price">$ 13.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="wrap-product--small col l-2-4 c-12">
+                                    <div class="wrap-img wrap-img--small">
+                                        <img src="./assets/img/lasted-5.jpg" alt=""
+                                            class="product-img product-img--small">
+                                    </div>
+                                    <div class="wrap-item-info-right">
+                                        <h3 class="product-name product-name--small">Modular Modern</h3>
+                                        <div class="product-price">
+                                            <!-- <span class="old-price">$ 9.00</span> -->
+                                            <span class="current-price">$ 14.00</span>
+                                        </div>
+                                        <div class="product-rating product-rating--most-view">
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star start-icon--gold"></i>
+                                            <i class="start-icon fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="most-view__card">
+                                            <i class="add-cart__icon ti-shopping-cart"></i>
+                                            <span>add to cart</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                </div>
+
+                </section>
+                <section class="lasted-post">
+                    <div class="subnav__top">
+                        <h2 class="heading--second">LASTED POST</h2>
+                        <div class="sub-control">
+                            <a href="#">
+                                <i class="left-icon fa fa-long-arrow-left"></i>
+                            </a>
+                            <a href="#">
+                                <i class="right-icon fa fa-long-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="lasted-post__main">
+                        <div class="row lasted-post__wrap">
+                            <div class="col l-4 lasted-post__content">
+                                <div class="lasted-post__img">
+                                    <img src="./assets/img/lasted-post1.jpg" alt="">
+                                </div>
+                                <div class="lasted-post__info">
+                                    <div class="lasted-post__info-left">
+                                        <h3 class="lasted-post__info-day">3</h3>
+                                        <span class="lasted-post__info-month">NOV</span>
+                                    </div>
+                                    <div class="lasted-post__info-right">
+                                        <h4 class="lasted-post__info-admin">Admin</h4>
+                                        <a href="#" class="lasted-post__info-name">Richard McClintock at
+                                            Hampden-Sydney</a>
+                                        <p class="lasted-post__info-details">Latin professor at Hampden-Sydney
+                                            College in Virginia, looked up one of the more obscure Latin words,
+                                            consectetur, from a Lorem Ipsum passage, and going through the cites of
+                                            the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 lasted-post__content">
+                                <div class="lasted-post__img">
+                                    <img src="./assets/img/lasted-post2.jpg" alt="">
+                                </div>
+                                <div class="lasted-post__info">
+                                    <div class="lasted-post__info-left">
+                                        <h3 class="lasted-post__info-day">3</h3>
+                                        <span class="lasted-post__info-month">NOV</span>
+                                    </div>
+                                    <div class="lasted-post__info-right">
+                                        <h4 class="lasted-post__info-admin">Admin</h4>
+                                        <a href="#" class="lasted-post__info-name">Richard McClintock at
+                                            Hampden-Sydney</a>
+                                        <p class="lasted-post__info-details">Latin professor at Hampden-Sydney
+                                            College in Virginia, looked up one of the more obscure Latin words,
+                                            consectetur, from a Lorem Ipsum passage, and going through the cites of
+                                            the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col l-4 lasted-post__content">
+                                <div class="lasted-post__img">
+                                    <img src="./assets/img/lasted-post3.jpg" alt="">
+                                </div>
+                                <div class="lasted-post__info">
+                                    <div class="lasted-post__info-left">
+                                        <h3 class="lasted-post__info-day">3</h3>
+                                        <span class="lasted-post__info-month">NOV</span>
+                                    </div>
+                                    <div class="lasted-post__info-right">
+                                        <h4 class="lasted-post__info-admin">Admin</h4>
+                                        <a href="#" class="lasted-post__info-name">Richard McClintock at
+                                            Hampden-Sydney</a>
+                                        <p class="lasted-post__info-details">Latin professor at Hampden-Sydney
+                                            College in Virginia, looked up one of the more obscure Latin words,
+                                            consectetur, from a Lorem Ipsum passage, and going through the cites of
+                                            the word in classical literature, discovered the undoubtable source.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="brand">
+                    <div class="row wrap-brand">
+                        <div class="brand__content col l-2 c-12">
+                            <img src="./assets/img/brand1.png" alt="" class="brand-img">
+                        </div>
+                        <div class="brand__content col l-2 c-12">
+                            <img src="./assets/img/brand2.png" alt="" class="brand-img">
+                        </div>
+                        <div class="brand__content col l-2 c-12">
+                            <img src="./assets/img/brand3.png" alt="" class="brand-img">
+                        </div>
+                        <div class="brand__content col l-2 c-12">
+                            <img src="./assets/img/brand4.png" alt="" class="brand-img">
+                        </div>
+                        <div class="brand__content col l-2 c-12">
+                            <img src="./assets/img/brand5.png" alt="" class="brand-img">
+                        </div>
+                        <div class="brand__content col l-2 c-12">
+                            <img src="./assets/img/brand6.png" alt="" class="brand-img">
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer__top">
+            <div class="container">
+                <div class="row footer__content">
+                    <div class="col l-2-4 c-12">
+                        <h3 class="footer-heading">contact us</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <div class="footer__icon" style="width: 40px">
+                                    <i class="fa-solid fa-house-chimney"></i>
+                                </div>
+                                <span class="footer__info">8888 South Avenue Street, New York</span>
+
+                            </li>
+                            <li class="footer__item">
+                                <div class="footer__icon">
+                                    <i class="fa-solid fa-phone"></i>
+                                </div>
+                                <div class="footer__info">
+                                    <span>(12) 3 456 7896</span>
+                                    <span>(12) 3 456 7895</span>
+                                </div>
+                            </li>
+                            <li class="footer__item">
+                                <div class="footer__icon" style="width: 40px">
+                                    <i class="fa-solid fa-envelope"></i>
+                                </div>
+                                <div class="footer__info-mail">
+                                    <span>contact@simen.com</span>
+                                    <span>info@simen.com</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col l-2-4 c-12">
+                        <h3 class="footer-heading">service</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Prices & Currencies</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Secure Payment</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Delivery Times & Costs</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Returns & Exchanges</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">FAQ's</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 c-12">
+                        <h3 class="footer-heading">account</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">My Account</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Wishlist</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Order History</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Specials</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Gift Vouchers</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 c-12">
+                        <h3 class="footer-heading">information</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">My Account</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Wishlist</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Order History</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Specials</a>
+                            </li>
+                            <li class="footer__item">
+                                <a href="#" class="footer__link">Gift Vouchers</a>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="col l-2-4 c-12">
+                        <h3 class="footer-heading">newsletter</h3>
+                        <ul class="footer__list">
+                            <li class="footer__item">
+                                <span class="register-text">Register your email for news</span>
+                            </li>
+                            <li class="footer__item">
+                                <input type="text" placeholder="Your email here" class="footer__input">
+                            </li>
+                            <li class="footer__item">
+                                <button class="sub-btn">SUBSCRIBE</button>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer__bottom">
+            <div class="container">
+                <div class="footer__bottom-main">
+                    <h4 class="footer__copyright"> © 2015 Ecommerce software by Wordpress™ Designed by SNSTheme.Com</h4>
+                    <img src="./assets/img/payment.png" alt="" class="footer__payment">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+    <!-- <div class="modal">
+        <div class="modal__overlay"></div>
+    </div> -->
+    <script src="./assets/index.js"></script>
+</body>
+
+</html>
